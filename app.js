@@ -8,7 +8,7 @@ window.onload = () => {
     body.style.alignItems = "center";
 
     let randomNumber = () => {
-        const numbers = ['A', 2, 3, 4, 5, 6, 7, 8, 9, 'K', 'J', 'Q'];
+        const numbers = ['A', 2, 3, 4, 5, 6, 7, 8, 9, 10, 'K', 'J', 'Q'];
         getRandomNumbers = Math.floor(Math.random() * numbers.length);
         return numbers[getRandomNumbers];
     }
